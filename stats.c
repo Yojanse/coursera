@@ -24,6 +24,7 @@
 #include <stdio.h>
 #include "stats.h"
 
+
 /* Size of the Data Set */
 #define SIZE (40)
 
@@ -36,11 +37,15 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
-  /*
 
-*/
+  /* Statistics and Printing Functions Go Here */
+
+   
+    
+
 
 }
 
 /* Add other Implementation File Code Here */
+
+

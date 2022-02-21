@@ -21,18 +21,45 @@
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
+/*
+this functions print the minimum,  maximum , mean and the median of an array
+ */
+void print_statistics (unsigned char minimum, unsigned char maximum, float mean, unsigned char median);
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+
+/*
+this function print an array
+ */
+void print_array (unsigned char *array, unsigned int counter);
+
+
+/*
+this function print the median of an array.
+ */
+unsigned char find_median (unsigned char *array, unsigned int counter);
+
+/*
+ this function print the mean of an array.
+ */
+float find_mean (unsigned char *array, unsigned int counter);
+
+/*
+this function print the maximum of an array.
+ */
+unsigned char find_maximum (unsigned char *array, unsigned int counter);
+
+/*
+this function print the minimum of an array.
+ */
+unsigned char find_minimum (unsigned char *array, unsigned int counter);
+
+/*
+this function print an array ordenize of an original array.
+ */
+void sort_array (unsigned char *array, unsigned int counter);
+
+/*
+
  */
 
 
